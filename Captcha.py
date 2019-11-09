@@ -51,4 +51,4 @@ def break_captcha(img1):
     # cv2.imshow('dilate',img_subs)
     # cv2.imshow('Image Final',img_final)
     return pytesseract.image_to_string(img_final)
-    cv2.waitKey(0)
+    #cv2.waitKey(0)
